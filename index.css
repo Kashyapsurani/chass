@@ -1,31 +1,22 @@
-.dd{
-    border: 5px solid black;
-    width: 100%;
-    height: 100%;
+.chess{
+    border: 1px solid black;
+    width: 100%px;
+    height: 80%;
+    text-align: center;
+    display: inline-block;
+}
+.box{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+    font-size: 80px;
 
 }
-.chass{
-   
-    padding-bottom: 135px;
-    width: 12.25%;
-    height: 10px;
-    display:inline-block;
-    background: #000;
-    
-}
-.chass2{
-   
-    width: 12.25%;
-    height: 10px;
-    display:inline-block;
-    padding-bottom: 135px;
-    background: #ffffff;
-    
-}
-.mm{
-    width: 100%;
-    
-}
-img{
-    object-fit:fill;
+.black{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 80px;
 }
